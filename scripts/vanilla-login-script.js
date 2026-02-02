@@ -1,21 +1,11 @@
-document.addEventListener('DOMContentLoaded', function () {
-
-    console.log("password is: lasagna");
-});
-
-
-
-
+console.log("password is: lasagna");
 
 //when button clicked, get username and password. 
 
-const login = document.getElementById('login-button');
-
 //pass an Immediately Invoked Function Expression: IIFE.
-login.addEventListener('click', function (event) {
-  console.log('clicked');
-  
-  
+document.addEventListener('submit', function (event) {
+  event.preventDefault();
+
   // Get form values from the DOM 
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
