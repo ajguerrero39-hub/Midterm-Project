@@ -4,7 +4,7 @@ CIS 376 Spring 2026 Course Page.
 
 [course calendar](https://github.com/barrycumbie/bearbot/wiki/Web-Dev-Course-Calendar)
 
-## User Story 
+## User Story (👕/XL)
 
 **As a** web dev student
 
