@@ -55,5 +55,26 @@
       "duration": "",
       "topics": ["javascript", "sessions", "state"]
     }
+      ,
+      {
+        "id": "array-to-dom-part-one",
+        "title": "array to dom part one",
+        "description": "stepping through how to use your script to load data into the html dom from an array.",
+        "videoId": "Y6i5n4VwLBo",
+        "url": "https://youtu.be/Y6i5n4VwLBo",
+        "duration": "15:51",
+        "topics": ["javascript", "dom", "arrays"],
+        "dateAdded": "2026-02-12"
+      },
+      {
+        "id": "array-to-dom-part-two",
+        "title": "array to dom part 2, conclusion",
+        "description": "conclusion of stepping through how to use your script to load data into the html dom from an array.",
+        "videoId": "dzCLypH9lh4",
+        "url": "https://youtu.be/dzCLypH9lh4",
+        "duration": "20:55",
+        "topics": ["javascript", "dom", "arrays"],
+        "dateAdded": "2026-02-12"
+      }
   ]
 }
