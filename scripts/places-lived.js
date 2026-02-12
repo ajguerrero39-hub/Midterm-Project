@@ -2,9 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
   //confirm my script is loading
   console.log('✅ places lived script loaded.')
 
+  //todo: refactor to check actual login. 
   //check if user is logged in, this is super secret stuff
   //hardcoding in true value for now while i dev. 
-  sessionStorage.setItem('isAuth', true);
+  sessionStorage.setItem('isAuth', "auth");
   const isAuth = sessionStorage.getItem('isAuth');
   console.log('⁇ auth: ', isAuth);
 
@@ -21,14 +22,16 @@ document.addEventListener('DOMContentLoaded', function () {
     //loop through the array and add to the dom. 
     for (let i = 0; i < placesLivedList.length; i++) {
       //first "dirty" check        
-      console.log(i);
+      //console.log(i);
       //quick check, first & last loop pass that I'm in it! 
-      if (i == 0 || i == placesLivedList.length - 1) { console.log('✅in the loop!') }
+      //if (i == 0 || i == placesLivedList.length - 1) { console.log('✅in the loop!') }
 
       //now load the array list into the dom
       // document.getElementById('placesLived').innerHTML += 
       //   '<li>' + placesLivedList[i] +'</li>'  
-    }
+    }//closes the loop
+
+
     //oh rats, I didn't clear out the hardcoded "Loading..." better do that first...or here, to ry something new. 
     document.getElementById('placesLived').firstElementChild.remove();
 
@@ -45,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // initPlacesLived();
 
     // lvl 2️⃣, call a f/n instead
-    initListItems(placesLived, placesLivedList);
+    initListItems('placesLived', placesLivedList);
   }
 });
 
@@ -61,14 +64,16 @@ function initPlacesLived() {
 // level 2️⃣🥣 refactor, resuable? 
 function initListItems(tagId, list) {
   //a better way to loop through and array
+  console.log('✅in initListItem');
   list.forEach((element, index) => {
     //what are these params even? 
-    console.log(`what's the element? `, element);
-    console.log(`what's the index? `, index);
+    // console.log(`what's the element? `, element);
+    // console.log(`what's the index? `, index);
 
-    document.getElementById('placesLived').innerHTML +=
-      `<li>🥣 ${element}</li>`
+    document.getElementById(tagId).innerHTML +=
+      `<li id='placeLived${index+1}'>🥣 ${element}</li>`
 
+    // console.log(document.getElementById(tagId)); 
   });
 }
 

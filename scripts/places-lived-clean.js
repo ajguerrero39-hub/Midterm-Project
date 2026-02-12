@@ -18,17 +18,16 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-
 // level 2️⃣🥣 refactor, resuable? 
 function initListItems(tagId, list) {
-  
+
   const listItemContainer = document.getElementById(tagId);
   
   //let's just empty the <ul> 
   listItemContainer.innerHTML = '';
    
   list.forEach((element, index) => { 
-    listItemContainer.innerHTML += `<li>🥣 ${element}</li>`
+    listItemContainer.innerHTML += `<li>${element}</li>`
   });
 }
 
