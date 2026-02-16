@@ -25,6 +25,8 @@ login.addEventListener('click', function (event) {
   // Store in session storage
   sessionStorage.setItem('username', username);
   sessionStorage.setItem('password', password);
+  sessionStorage.setItem('isAuthN', 'true');
+ 
   // sessionStorage.setItem('loginTimestamp', new Date().toISOString());
   // sessionStorage.setItem('loginAttempts', (parseInt(sessionStorage.getItem('loginAttempts') || '0') + 1).toString());
 
@@ -32,7 +34,8 @@ login.addEventListener('click', function (event) {
   console.log('session username:', username);
   console.log('session password:', password);
 
-  window.location.assign("content.html"); 
+
+  window.location.assign("../index.html"); 
 
 });
 
