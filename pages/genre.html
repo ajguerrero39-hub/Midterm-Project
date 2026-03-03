@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GameHub</title>
-  <link href="styles/project-style.css" rel="stylesheet">
+  <title>GameHub|Genre</title>
+  <link href="../styles/project-style.css" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -17,7 +17,7 @@
 
       <!-- Row 1: primary (dark) -->
       <div class="w-100 px-3 py-2 d-flex align-items-center">
-        <a class="navbar-brand fw-bold mb-0" href="index.html">GameHub</a>
+        <a class="navbar-brand fw-bold mb-0" href="../index.html">GameHub|Genre</a>
 
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,8 +26,8 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-            <li class="nav-item"><a class="nav-link" href="pages/franchise.html">Search by Franchise</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/genre.html">Search by Genre</a></li>
+            <li class="nav-item"><a class="nav-link" href="franchise.html">Search by Franchise</a></li>
+            <li class="nav-item"><a class="nav-link" href="genre.html">Search by Genre</a></li>
           </ul>
           <a href="pages/login.html" id="btnLogin" class="btn btn-light ms-sm-3 d-none" type="button">Login</a>
           <button id="btnLogout" class="btn btn-outline-light ms-sm-3 d-none" type="button">Logout</button></a>
@@ -41,6 +41,7 @@
 
             <input class="form-control form-control-lg flex-grow-1 rounded-pill" id="searchInput" type="search" placeholder="Explore GameHub"
               aria-label="Search">
+
           </form>
         </div>
       </div>
@@ -78,9 +79,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"></script>
-  <script src="scripts/login-logout.js"></script>
-  <script src="scripts/data.js"></script>
-  <script src="scripts/index-search.js"></script>
+   <script src="../scripts/data.js"></script>
+  <script src="../scripts/genre-search.js" defer></script>
 </body>
 
 </html>

@@ -2,6 +2,7 @@
 // toast msg upon logout 
 
 document.addEventListener('DOMContentLoaded', () => {
+  
 
   showSignInOut(); 
 

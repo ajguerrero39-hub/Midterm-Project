@@ -43,10 +43,44 @@
 
 
 
-const jsArrayData = [
+const gameData = [
   "Theif",
   "The Legend of Zelda",
   "Doom",
+  "Call of Duty",
+  "Assassin's Creed",
+  "Minecraft",
+  "Elder Scrolls",
+  "Final Fantasy",
+  "Battlefield",
+  "Diablo",
+  "Dark Souls",
+  "Halo",
+  "GTA",
+  "Wolfenstein",
+  "Overwatch",
+  "GoldenEye 007",
+  "Splinter Cell",
+  "Metal Gear Solid",
+  "Kings Quest",
+  "The Secret of Monkey Island",
+  "Ninja Gaiden",
+  "Quake",
+  "Resident Evil",
+  "Mass Effect",
+  "Bloodborne",
+  "Scorn"
+];
+const genreData = [
+  "Action",
+  "Adventure",
+  "Role-Playing",
+  "Simulation",
+  "Strategy",
+  "Sports",
+];
+const franchiseData = [
+  "The Legend of Zelda",
   "Call of Duty",
   "Assassin's Creed",
   "Minecraft",

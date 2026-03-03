@@ -17,6 +17,10 @@ body {
   border: solid 1px rgb(0, 0, 0);
 } */
 
+h3{
+  color: #de158b;
+  text-align: center;
+}
 .rubik-mono-one-regular {
   font-family: "Rubik Mono One", monospace;
   font-weight: 400;
@@ -41,8 +45,17 @@ body {
 #author {
     text-decoration: underline;
 }
-#searchResults {
-  text-decoration: underline;
+#searchResults > li{
+  /* text-decoration: underline; */
   color: #fcfcfc;
   
+  
+}
+#searchResults>li:hover {
+  color: #150ab6;
+  text-decoration: underline;
+}
+.container{
+  background-color: #5f0303;
+  border: unset;
 }
