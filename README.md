@@ -18,6 +18,6 @@ Made with W3Schools and code from Professor Barry Cumbie
 
 ## Concept For This App ##
 
-<img width = "1000" height = 600 src = "/>
+<img width = "1000" height = 600 src = "https://github.com/ajguerrero39-hub/midterm-project/blob/e7c1fc52cab0fc0a37075993724fbdbd687ce902/Screenshot%202026-03-04%20114659.png"/>
 
 
