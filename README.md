@@ -25,6 +25,12 @@ Instead of a store setting, I wanted it to be more open to people who wish to vo
 
 This is how searching works
 
+Initalized from the DOM:
+```js
+<input class="form-control form-control-lg flex-grow-1 rounded-pill" id="searchInput" type="search" placeholder="Explore GameHub"
+              aria-label="Search">
+```
+
 First, from `scripts/index-search.js`, this creates the default (full) list of Titles, then waits for input
 ```js
 renderSearchResults(gameData);
@@ -56,5 +62,9 @@ function renderSearchResults(items) {
     searchResults.appendChild(li);
   });
 }
+```
+The print displays on the DOM:
+```js
+ <ul id="searchResults" ></ul>
 ```
 Tested on desktop and mobile with no issues.
