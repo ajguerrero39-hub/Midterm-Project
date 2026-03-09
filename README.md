@@ -24,7 +24,8 @@ Instead of a store setting, I wanted it to be more open to people who wish to vo
 ## Code Sample
 
 This is how searching works
-from `scripts/index-search.js`, this creates the default (full) list of Titles, then waits for input
+
+First, from `scripts/index-search.js`, this creates the default (full) list of Titles, then waits for input
 ```js
 renderSearchResults(gameData);
 searchInput.addEventListener("input", handleSearch);
